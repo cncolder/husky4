@@ -1,4 +1,4 @@
-# husky4
+# husky4th
 
 > Git hooks made easy
 
@@ -13,7 +13,7 @@
 This will install husky v4.
 
 ```sh
-npm i -D husky4
+npm i -D husky4th
 ```
 
 ```js
@@ -38,7 +38,7 @@ _Existing hooks are kept. Requires Node `>= 10` and Git `>= 2.13.0`._
 ## Uninstall
 
 ```sh
-npm uninstall husky4
+npm uninstall husky4th
 ```
 
 _Git hooks installed by husky will be removed._

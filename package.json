@@ -1,5 +1,5 @@
 {
-  "name": "husky4",
+  "name": "husky4th",
   "version": "4.0.0",
   "description": "Prevents bad commit or push (git hooks, pre-commit/precommit, pre-push/prepush, post-merge/postmerge and all that stuff...)",
   "main": "index.js",
@@ -14,7 +14,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cncolder/husky4.git"
+    "url": "git+https://github.com/cncolder/husky4th.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [
     "git",
@@ -34,9 +37,9 @@
   "author": "colder",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cncolder/husky4/issues"
+    "url": "https://github.com/cncolder/husky4th/issues"
   },
-  "homepage": "https://github.com/cncolder/husky4#readme",
+  "homepage": "https://github.com/cncolder/husky4th#readme",
   "dependencies": {
     "husky": "^4.3.8"
   },
