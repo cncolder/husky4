@@ -1,0 +1,46 @@
+{
+  "name": "husky4",
+  "version": "4.0.0",
+  "description": "Prevents bad commit or push (git hooks, pre-commit/precommit, pre-push/prepush, post-merge/postmerge and all that stuff...)",
+  "main": "index.js",
+  "scripts": {
+    "test": "husky install && npm run postinstall",
+    "postinstall": "node postinstall.js"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run test"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cncolder/husky4.git"
+  },
+  "keywords": [
+    "git",
+    "hook",
+    "hooks",
+    "pre-commit",
+    "precommit",
+    "post-commit",
+    "postcommit",
+    "pre-push",
+    "prepush",
+    "post-merge",
+    "postmerge",
+    "test",
+    "lint"
+  ],
+  "author": "colder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cncolder/husky4/issues"
+  },
+  "homepage": "https://github.com/cncolder/husky4#readme",
+  "dependencies": {
+    "husky": "^4.3.8"
+  },
+  "devDependencies": {
+    "husky8": "npm:husky@^8"
+  }
+}
