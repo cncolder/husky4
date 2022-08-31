@@ -2,7 +2,6 @@
   "name": "husky4th",
   "version": "4.0.1",
   "description": "Prevents bad commit or push (git hooks, pre-commit/precommit, pre-push/prepush, post-merge/postmerge and all that stuff...)",
-  "main": "index.js",
   "scripts": {
     "test": "husky install && npm run postinstall",
     "postinstall": "node postinstall.js"
